@@ -10,3 +10,4 @@ def castle(size, cost)
   return answer
   
 end
+
