@@ -14,6 +14,8 @@ class MyApp < Sinatra::Base
     @result=castle(user_size, user_cost)
     @cost=@result[0]
     @image=@result[1]
+    @imageb=@result[2]
+    @imagec=@result[3]
     erb :results
   end
   
